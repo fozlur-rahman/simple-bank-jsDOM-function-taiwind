@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- .summery of bank  -->
+    <h1 class="text-center text-4xl py-24">Wellcome your <span class="text-sky-400">Bank</span></h1>
+    <div class="grid grid-cols-3 gap-8 w-3/5 mx-auto">
+        <div class="item bg-gray-200 p-10 rounded">
+            <h1 class="text-2xl">Total Deposit: <span id="deposit-total">100</span></h1>
+        </div>
+        <div class="item bg-gray-200 p-10 rounded">
+            <h1 class="text-2xl">Total Withdraw: <span id="withdraw-total">100</span></h1>
+        </div>
+        <div class="item bg-gray-200 p-10 rounded">
+            <h1 class="text-2xl">Total Blance: <span id="blance-total">1200</span></h1>
+        </div>
+    </div>
+
+    <!-- form area of bank  -->
+    <div class="grid grid-cols-2 gap-8 w-3/5 mx-auto mt-20">
+        <div class="bg-gray-100 p-10">
+            <input id="deposit-field" class="py-4 px-5 block mb-5 rounded" type="text" placeholder="Deposit here">
+            <button id="deposit-btn" class="py-4 px-8 bg-sky-400 rounded text-white">Deposit</button>
+        </div>
+        <div class="bg-gray-100 p-10">
+            <input id="withdraw-field" class="py-4 px-5 w-100 block mb-5  rounded" type="text"
+                placeholder="Deposit here">
+            <button id="withdraw-btn" class="py-4 px-8 bg-sky-400 rounded text-white">Withdraw</button>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
